@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling using CSS</title>
+    
+    <style type="text/css">
+        .internal{
+            font-size: 50px;
+            font-family: cursive;
+
+        }
+        .h1{
+            color: blue;
+            background-color: aqua;
+            margin: 0; 
+            padding: 5%;
+        }
+    </style>
+    <link rel="stylesheet" href="external_styling.css">
+</head>
+<body>
+    <!-- styling -->
+    <h1>Inline Styling</h1>
+    <p class="h1 internal" >This is inline styling in CSS</p>
+    <p class="internal">This is internal styling </p>
+    <p ><h1 class="external" id="sel">I am ironman</h1></p>
+</body>
+</html>

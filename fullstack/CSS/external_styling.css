@@ -1,0 +1,78 @@
+.external{
+    border-radius: 2%;
+    background-color: cadetblue;
+    border-style: dashed;
+}
+
+.h1{
+    color: red;
+    background-color: yellow;
+    margin: 0; 
+    padding: 5%;
+}
+#abc{
+    background-color: blue;
+    font-family: cursive;
+}
+p{
+    color: red;
+    font-size: 30px;
+}
+h3{
+    background-color: aqua;
+    font-family: cursive;
+}
+span{
+    background-color: yellow;
+}
+
+*{
+    font-family: cursive;
+    margin: 0px;
+    padding: 0px;
+}
+input[type]{
+    color: rgb(255, 0, 179);
+}
+input[type="text"]{
+    color: blue;
+}
+input[type="number"]{
+    color:aqua;
+}
+div{
+    height: 500px;
+    width: 600px;
+    background-color: aliceblue;
+}
+img[scr]{
+    border: 2px;
+    border: solid;
+    border-radius: 10px;
+    border-color: cadetblue;
+    background-color: red;
+}
+
+
+/* pseudo attribute */
+a:hover{
+    color: yellow;
+}
+a:link{
+    color: green;
+}
+a:visited{
+    color: pink;
+}
+a:active{
+    color: yellow;
+}
+div:hover{
+    background-color: aqua;
+    height: 500px;
+    width: 300px;
+}
+button:hover{
+    background-color: red;
+}
+
