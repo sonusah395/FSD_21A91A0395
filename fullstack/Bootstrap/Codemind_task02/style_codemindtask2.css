@@ -1,0 +1,53 @@
+h1{
+    color:rgba(147, 8, 8, 0.699);
+}
+.b{
+    border:2vh solid rgb(122, 119, 119);
+}
+.sky,.r,.or,.g{
+    color:rgb(18, 162, 219);
+    font-size:20px;
+}
+
+.r{
+    color:rgb(161, 39, 39);
+}
+
+.or{
+    color:rgb(235, 158, 15);
+}
+.g{
+    color:rgb(40, 226, 40);
+}
+.p{
+    opacity:0.8;
+}
+.col1{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center;
+   /* margin-top: 20px;  */
+   /* margin-left: 20px; */
+}
+
+.row1{
+    font-size:20px;
+}
+
+.col2{
+    margin-top:5%;
+}
+
+i{
+    font-size:30px;
+}
+
+.left1{
+    padding-top:7px;
+   float:right;
+}
+
+progress::-webkit-progress-bar {
+    background-color: rgba(19, 225, 50, 0.621);
+ }
